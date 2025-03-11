@@ -22,7 +22,7 @@ tower = "0.4"
 http = "1.0"
 rcgen = { version = "0.12", default-features = false, features = ["ring"] }
 
-tracing = { version = "0.1", default-features = false, features = ["release_max_level_debug"] }
+tracing = { version = "0.1", default-features = false }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 directories = "6"
